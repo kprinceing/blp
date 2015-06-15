@@ -1,0 +1,180 @@
+ <html>
+
+<title>Computer Inputs for the Nevo BLP Example (31 December 2005)</title>
+
+<head>
+   
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+   
+  <meta name="Generator" content="Corel WordPerfect 8">
+
+   
+  <meta name="GENERATOR" content="Mozilla/4.03 [en] (WinNT; I) [Netscape]"></head><body>
+
+<div align="left"><big>
+<font face="Helvetica, Arial, sans-serif"><b><big>Computer Inputs for the Nevo BLP Example (31 December 2005)</big><br>
+</b></font>
+</big></div>
+
+
+
+
+<font face="Helvetica, Arial, sans-serif"><br>
+Listed below is a Matlab script file and eight accompanying Matlab
+functions that compute the random coefficients discrete choice model
+described in   Aviv Nevo's article,  <br>
+<br>
+
+<small>Nevo, Aviv (2000) "A Practitioner's Guide to Estimation of Random
+Coefficients Logit Models of Demand," <i>Journal of Economics &amp; Management
+Strategy</i> 9(4): 513-548, 2000.<br><br>
+</small>
+
+The code has been provided for teaching by Aviv Nevo
+(and modified by Bronwyn Hall and Eric Rasmusen to run in Matlab 7). Users of this code  should reference the Nevo paper, since the code was constructed for the  appendix to it.  Eric Rasmusen 
+successfully ran this code  using Matlab 6.5.0 on  the libra.uits.iu.edu computer with its   Unix operating
+system. For questions regarding Matlab, go to <a href="http://www.mathworks.com">MathWorks</a>. 
+
+<br>
+<br>
+The program consists of the following Matlab m-files:
+<ul>
+<li> <a href="r1.m">r1.m</a> - A script file that reads in the data
+and calls the other functions. This is the main program. Matlab works by putting functions in separate programs, which is why there are so many files. This is the file called rc_dc.m by Nevo and Hall. 
+<p>
+
+<li>
+<a href="gmmobjg.m">gmmobjg.m</a> - This function computes the GMM objective
+function and its gradient. It replaces two of Nevo's files, gmmobj.m and gradobj.m. 
+<p>
+
+<li><a href="meanval.m">meanval.m</a> - This function computes the mean
+utility level.
+<p>
+
+<li><a href="mufunc.m">mufunc.m</a> - This function computes the non-linear
+part of the utility (mu_ijt in  Nevo's "Guide").
+<p>
+
+<li><a href="mktsh.m">mktsh.m</a> - This function computes the market share
+for each product.
+<p>
+
+<li><a href="ind_sh.m">ind_sh.m</a> - This function computes the "individual"
+probabilities of choosing each brand.
+<p>
+
+<li><a href="gradobj.m"></a><a href="jacob.m">jacob.m</a> - This function computes the Jacobian
+of the implicit function that defines the mean utility. I could not get the program to make effective use of this file, but I include it anyway. 
+<p>
+
+<li><a href="var_cov.m">var_cov.m</a> - This function computes the VCov
+matrix of the estimates.
+<p>
+
+<li><a href="cr_dum.m">cd_dum.m</a> - This function creates a set of
+dummy variables.<p>
+
+</ul>
+
+ I know it's a bit of trouble to have to download these plain ascii files one by one.  
+
+
+ The
+results Nevo obtained with the code can be found in <a href="results-nevo.txt">results-nevo.txt.</a> The results Rasmusen obtained can be found in <A HREF="results-newtonraphson.txt ">results-newtonraphson.txt</A> and <A HREF="results-simplex.txt">results-simplex.txt</A> for the two different matlab optimization routines that can be used. <p>
+
+The files just named contain only the results. For   logs of how the program ran, see <A HREF="results-newtonraphson.txt ">mydiary-newtonraphson.txt</A> and <A HREF="results-simplex.txt">rmydiary-simplex.txt</A>.<p>
+
+
+</font>
+
+  
+The code needs data files as input.  
+These data were motivated by real scanner data, but it is not real
+and should not be used to make any inference. The  purpose these data
+serve is to provide an example of the inputs required by the program. The data  
+consists of two Matlab files:  <a href="ps2.mat">ps2.mat</a> and <a href="iv.mat">iv.mat</a> (both Matlab
+5+ files). If you
+  use Matlab,  use these files directly. If you use some other optimization program, either use the Matlab
+"load" and "save" commands to create ASCII files or download the Excel spreadsheets that contain the data (<a href="cereal_ps3.xls">cereal_ps3.xls</a> and <a href="demog_ps3.xls">demog_ps3.xls</a>).<p>
+
+ The date are
+(semi-fabricated) data on 24 brands of the only REAL product
+(ready-to-eat cereal, what else did you think?), for 94 markets (47 US
+cities for the first 2 quarters of 1988). These variables are defined
+and were treated as described in Nevo (2000). 
+
+
+</font><p><font face="Helvetica, Arial, sans-serif">The file <i><b>ps2.mat</b></i> contains the following variables: <br>
+</font></p>
+<p><font face="Helvetica, Arial, sans-serif"><i><b>id</b></i> - an id variable in the format bbbbccyyq, where bbbb is a unique
+4 digit identifier for each brand (the first digit is company and last
+3 are brand, i.e., 1006 is K Raisin Bran and 3006 is Post Raisin Bran),
+cc is a city code, yy is year (=88 for all observations is this data set)
+and q is quarter. All the other variables are sorted by date city brand.
+
+</font></p>
+<p><font face="Helvetica, Arial, sans-serif"><i><b>id_demo</b></i> - an id variable for the random draws and the demographic variables,
+of the format ccyyq. Since these variables do not vary by brand they are
+not repeated. The first observation here corresponds to the first market,
+the second to the next 24 and so forth.
+
+</font></p><p><font face="Helvetica, Arial, sans-serif"><i><b>s_jt </b></i>- the market shares of brand <i>j</i> in market <i>t</i>. Each row corresponds
+to the equivalent row in <i><b>id</b></i>.
+
+<br>
+&nbsp;
+<br>
+<i><b>x1 </b></i>- the variables that enter the linear part of the estimation. Here
+this consists of a price variable (first column) and 24 brand dummy variables.
+Each row corresponds to the equivalent row in <i><b>id</b></i>. This matrix is saved
+as a sparse matrix.
+<br>
+&nbsp;
+<br>
+<i><b>x2</b></i> - the variables that enter the non-linear part of the estimation.
+Here this consists of a constant, price, sugar content and a mushy dummy,
+respectively . Each row corresponds to the equivalent row in <i><b>id</b></i>.
+<br>
+&nbsp;
+
+<br>
+<i><b>v</b></i> - random draws given for the estimation. For each market 80 iid normal
+draws are provided. They correspond to 20 "individuals", where for each
+individual there is a different draw for each column of <i><b>x2</b></i>. The ordering
+is given by <i><b>id_demo</b></i>.
+<br>
+&nbsp;
+<br>
+<i><b>demogr</b></i> - draws of demographic variables from the CPS for 20
+individuals
+in each market. The first 20 columns give the income, the next 20 columns
+the income squared, columns 41 through 60 are age and 61 through 80 are
+a child dummy variable (=1 if age &lt;= 16). Each of the variables has
+been demeaned (i.e. the mean of each set of 20 columns over the 94 rows
+is 0). The ordering is given by <i><b>id_demo</b></i>.
+
+<br>
+&nbsp;
+<br>
+The file <i><b>iv.mat</b></i> contains the variable <i><b>iv</b></i> which consists of an id column
+(see the <i><b>id</b></i> variable above) and 20 columns of IV's for the price variable.
+The variable is sorted in the same order as the variables in <i><b>ps2.mat</b></i>.<br>
+</font></p>
+
+<p><font face="Helvetica, Arial, sans-serif"><b>Excel spreadsheets:</b><br>
+</font></p>
+<p><font face="Helvetica, Arial, sans-serif"><i><b>cereal</b></i>
+contains 2256 observations on id, brand, firm, city, quarter, share,
+price, sugar content, mushiness, and the 20 instruments in <i><b>iv</b></i>, called <i><b>z1-z20</b></i>. <br>
+<i><b>demog</b></i> contains the demographic draws for each market.
+There are 94 observations (47 cities by 2 quarters) and 80 variables
+(20 individuals X 4 variables). <br>
+</font>
+</p>
+
+ 
+ 
+ 
+</body></html>

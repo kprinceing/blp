@@ -1,0 +1,681 @@
+
+date =
+
+31-Dec-2005 15:11:45
+
+                                                                    
+**********************************************************************
+                                                                    
+
+n_inst =
+
+    20
+
+                                                                    
+**********************************************************************
+                                                                    
+The dimensions of object IV are 2256    44
+                                                                    
+**********************************************************************
+                                                                    
+Object cdid dimensions: 2256     1
+The dimensions of object cdindex are      94   1
+                                                                    
+**********************************************************************
+                                                                   
+                                                                    
+The dimensions of object theta2w are      4  5
+                                                                    
+                                                                    
+**********************************************************************
+                                                                   
+The dimensions of object invA  are 44  44
+                                                                    
+**********************************************************************
+                                                                   
+Object temp dimensions: 2256     1
+Object sum1 dimensions: 94   1
+Object outshr dimensions: 2256     1
+Object y dimensions: 2256     1
+Object mid dimensions: 25  2256
+Object t dimensions: 25   1
+Object mvalold dimensions: 2256     1
+Object oldt2 dimensions: 13   1
+Object vfull dimensions: 2256    80
+Object dfull dimensions: 2256    80
+                                                                    
+**********************************************************************
+                                                                   
+# of iterations for delta convergence:  50
+GMM objective:  29.3534
+# of iterations for delta convergence:  25
+GMM objective:  29.5417
+# of iterations for delta convergence:  27
+GMM objective:  29.4125
+# of iterations for delta convergence:  27
+GMM objective:  29.658
+# of iterations for delta convergence:  28
+GMM objective:  29.5591
+# of iterations for delta convergence:  46
+GMM objective:  33.8912
+# of iterations for delta convergence:  43
+GMM objective:  30.1933
+# of iterations for delta convergence:  41
+GMM objective:  29.4804
+# of iterations for delta convergence:  40
+GMM objective:  29.1763
+# of iterations for delta convergence:  41
+GMM objective:  29.0882
+# of iterations for delta convergence:  41
+GMM objective:  29.3406
+# of iterations for delta convergence:  28
+GMM objective:  29.4213
+# of iterations for delta convergence:  32
+GMM objective:  29.363
+# of iterations for delta convergence:  28
+GMM objective:  29.281
+ 
+ Iteration   Func-count     min f(x)         Procedure
+     1           14          29.0882         initial
+# of iterations for delta convergence:  43
+GMM objective:  28.3267
+# of iterations for delta convergence:  41
+GMM objective:  30.8184
+     2           16          28.3267         reflect
+# of iterations for delta convergence:  46
+GMM objective:  29.072
+     3           17          28.3267         reflect
+# of iterations for delta convergence:  37
+GMM objective:  28.5643
+     4           18          28.3267         reflect
+# of iterations for delta convergence:  32
+GMM objective:  28.5383
+     5           19          28.3267         reflect
+# of iterations for delta convergence:  29
+GMM objective:  28.4763
+     6           20          28.3267         reflect
+# of iterations for delta convergence:  38
+GMM objective:  28.7211
+     7           21          28.3267         reflect
+# of iterations for delta convergence:  39
+GMM objective:  28.4566
+     8           22          28.3267         reflect
+# of iterations for delta convergence:  29
+GMM objective:  28.3394
+     9           23          28.3267         reflect
+# of iterations for delta convergence:  31
+GMM objective:  28.5211
+    10           24          28.3267         reflect
+# of iterations for delta convergence:  34
+GMM objective:  28.4265
+    11           25          28.3267         reflect
+# of iterations for delta convergence:  34
+GMM objective:  28.585
+    12           26          28.3267         reflect
+# of iterations for delta convergence:  32
+GMM objective:  28.8025
+    13           27          28.3267         reflect
+# of iterations for delta convergence:  37
+GMM objective:  29.5957
+# of iterations for delta convergence:  45
+GMM objective:  28.5616
+    14           29          28.3267         contract inside
+# of iterations for delta convergence:  40
+GMM objective:  27.7714
+# of iterations for delta convergence:  35
+GMM objective:  27.2804
+    15           31          27.2804         expand
+# of iterations for delta convergence:  37
+GMM objective:  27.4229
+    16           32          27.2804         reflect
+# of iterations for delta convergence:  41
+GMM objective:  28.499
+    17           33          27.2804         reflect
+# of iterations for delta convergence:  42
+GMM objective:  29.1928
+# of iterations for delta convergence:  42
+GMM objective:  28.2345
+    18           35          27.2804         contract inside
+# of iterations for delta convergence:  37
+GMM objective:  28.3809
+    19           36          27.2804         reflect
+# of iterations for delta convergence:  41
+GMM objective:  27.7653
+    20           37          27.2804         reflect
+# of iterations for delta convergence:  34
+GMM objective:  27.8435
+    21           38          27.2804         reflect
+# of iterations for delta convergence:  31
+GMM objective:  27.5804
+    22           39          27.2804         reflect
+# of iterations for delta convergence:  37
+GMM objective:  27.5151
+    23           40          27.2804         reflect
+# of iterations for delta convergence:  40
+GMM objective:  28.3516
+    24           41          27.2804         reflect
+# of iterations for delta convergence:  35
+GMM objective:  27.4202
+    25           42          27.2804         reflect
+# of iterations for delta convergence:  30
+GMM objective:  27.263
+# of iterations for delta convergence:  36
+GMM objective:  26.9768
+    26           44          26.9768         expand
+# of iterations for delta convergence:  39
+GMM objective:  26.9217
+# of iterations for delta convergence:  30
+GMM objective:  26.3405
+    27           46          26.3405         expand
+# of iterations for delta convergence:  40
+GMM objective:  28.0759
+    28           47          26.3405         reflect
+# of iterations for delta convergence:  44
+GMM objective:  27.1754
+    29           48          26.3405         reflect
+# of iterations for delta convergence:  41
+GMM objective:  26.5353
+    30           49          26.3405         reflect
+# of iterations for delta convergence:  40
+GMM objective:  26.4215
+    31           50          26.3405         reflect
+# of iterations for delta convergence:  41
+GMM objective:  26.7984
+    32           51          26.3405         reflect
+# of iterations for delta convergence:  45
+GMM objective:  27.4591
+    33           52          26.3405         reflect
+# of iterations for delta convergence:  40
+GMM objective:  26.2356
+# of iterations for delta convergence:  32
+GMM objective:  25.7429
+    34           54          25.7429         expand
+# of iterations for delta convergence:  36
+GMM objective:  25.8684
+    35           55          25.7429         reflect
+# of iterations for delta convergence:  31
+GMM objective:  25.8404
+    36           56          25.7429         reflect
+# of iterations for delta convergence:  37
+GMM objective:  25.8841
+    37           57          25.7429         reflect
+# of iterations for delta convergence:  39
+GMM objective:  26.7669
+    38           58          25.7429         reflect
+# of iterations for delta convergence:  37
+GMM objective:  25.5216
+# of iterations for delta convergence:  37
+GMM objective:  25.0074
+    39           60          25.0074         expand
+# of iterations for delta convergence:  41
+GMM objective:  25.1467
+    40           61          25.0074         reflect
+# of iterations for delta convergence:  34
+GMM objective:  24.9168
+# of iterations for delta convergence:  34
+GMM objective:  24.194
+    41           63           24.194         expand
+# of iterations for delta convergence:  38
+GMM objective:  25.1403
+    42           64           24.194         reflect
+# of iterations for delta convergence:  41
+GMM objective:  24.7052
+    43           65           24.194         reflect
+# of iterations for delta convergence:  38
+GMM objective:  24.9994
+    44           66           24.194         reflect
+# of iterations for delta convergence:  38
+GMM objective:  25.5755
+    45           67           24.194         reflect
+# of iterations for delta convergence:  38
+GMM objective:  24.528
+    46           68           24.194         reflect
+# of iterations for delta convergence:  39
+GMM objective:  24.3234
+    47           69           24.194         reflect
+# of iterations for delta convergence:  28
+GMM objective:  23.9337
+# of iterations for delta convergence:  35
+GMM objective:  23.5221
+    48           71          23.5221         expand
+# of iterations for delta convergence:  39
+GMM objective:  24.0935
+    49           72          23.5221         reflect
+# of iterations for delta convergence:  36
+GMM objective:  23.8512
+    50           73          23.5221         reflect
+# of iterations for delta convergence:  34
+GMM objective:  23.6863
+    51           74          23.5221         reflect
+# of iterations for delta convergence:  37
+GMM objective:  23.4556
+# of iterations for delta convergence:  39
+GMM objective:  23.5573
+    52           76          23.4556         reflect
+# of iterations for delta convergence:  34
+GMM objective:  24.1854
+    53           77          23.4556         reflect
+# of iterations for delta convergence:  39
+GMM objective:  23.4656
+    54           78          23.4556         reflect
+# of iterations for delta convergence:  41
+GMM objective:  24.3413
+    55           79          23.4556         reflect
+# of iterations for delta convergence:  30
+GMM objective:  24.0305
+    56           80          23.4556         reflect
+# of iterations for delta convergence:  41
+GMM objective:  23.4834
+    57           81          23.4556         reflect
+# of iterations for delta convergence:  35
+GMM objective:  23.9185
+    58           82          23.4556         reflect
+# of iterations for delta convergence:  38
+GMM objective:  23.64
+    59           83          23.4556         reflect
+# of iterations for delta convergence:  35
+GMM objective:  23.9986
+    60           84          23.4556         reflect
+# of iterations for delta convergence:  35
+GMM objective:  23.2637
+# of iterations for delta convergence:  35
+GMM objective:  23.6864
+    61           86          23.2637         reflect
+# of iterations for delta convergence:  35
+GMM objective:  23.8986
+    62           87          23.2637         reflect
+# of iterations for delta convergence:  42
+GMM objective:  24.2766
+# of iterations for delta convergence:  40
+GMM objective:  23.5984
+    63           89          23.2637         contract inside
+# of iterations for delta convergence:  38
+GMM objective:  24.2833
+# of iterations for delta convergence:  43
+GMM objective:  23.5643
+    64           91          23.2637         contract inside
+# of iterations for delta convergence:  42
+GMM objective:  24.6363
+# of iterations for delta convergence:  43
+GMM objective:  23.5057
+    65           93          23.2637         contract inside
+# of iterations for delta convergence:  32
+GMM objective:  24.1926
+# of iterations for delta convergence:  39
+GMM objective:  23.5469
+    66           95          23.2637         contract inside
+# of iterations for delta convergence:  34
+GMM objective:  23.5535
+    67           96          23.2637         reflect
+# of iterations for delta convergence:  38
+GMM objective:  24.1685
+# of iterations for delta convergence:  39
+GMM objective:  23.4894
+    68           98          23.2637         contract inside
+# of iterations for delta convergence:  36
+GMM objective:  23.3529
+    69           99          23.2637         reflect
+# of iterations for delta convergence:  28
+GMM objective:  23.2769
+    70          100          23.2637         reflect
+# of iterations for delta convergence:  41
+GMM objective:  23.3875
+    71          101          23.2637         reflect
+# of iterations for delta convergence:  34
+GMM objective:  23.2156
+# of iterations for delta convergence:  34
+GMM objective:  23.3333
+    72          103          23.2156         reflect
+# of iterations for delta convergence:  40
+GMM objective:  23.4048
+    73          104          23.2156         reflect
+# of iterations for delta convergence:  36
+GMM objective:  23.7159
+# of iterations for delta convergence:  35
+GMM objective:  23.331
+    74          106          23.2156         contract inside
+# of iterations for delta convergence:  32
+GMM objective:  23.2168
+    75          107          23.2156         reflect
+# of iterations for delta convergence:  37
+GMM objective:  23.2178
+    76          108          23.2156         reflect
+# of iterations for delta convergence:  36
+GMM objective:  23.5038
+# of iterations for delta convergence:  35
+GMM objective:  23.3016
+    77          110          23.2156         contract outside
+# of iterations for delta convergence:  35
+GMM objective:  23.0516
+# of iterations for delta convergence:  26
+GMM objective:  22.9864
+    78          112          22.9864         expand
+# of iterations for delta convergence:  30
+GMM objective:  23.0066
+    79          113          22.9864         reflect
+# of iterations for delta convergence:  35
+GMM objective:  22.9495
+# of iterations for delta convergence:  34
+GMM objective:  22.9044
+    80          115          22.9044         expand
+# of iterations for delta convergence:  34
+GMM objective:  23.0425
+    81          116          22.9044         reflect
+# of iterations for delta convergence:  38
+GMM objective:  22.9612
+    82          117          22.9044         reflect
+# of iterations for delta convergence:  40
+GMM objective:  23.3773
+# of iterations for delta convergence:  35
+GMM objective:  23.1185
+    83          119          22.9044         contract outside
+# of iterations for delta convergence:  39
+GMM objective:  22.8926
+# of iterations for delta convergence:  35
+GMM objective:  22.9719
+    84          121          22.8926         reflect
+# of iterations for delta convergence:  39
+GMM objective:  22.9493
+    85          122          22.8926         reflect
+# of iterations for delta convergence:  37
+GMM objective:  22.8022
+# of iterations for delta convergence:  34
+GMM objective:  22.8329
+    86          124          22.8022         reflect
+# of iterations for delta convergence:  31
+GMM objective:  22.8402
+    87          125          22.8022         reflect
+# of iterations for delta convergence:  34
+GMM objective:  22.6826
+# of iterations for delta convergence:  28
+GMM objective:  22.6489
+    88          127          22.6489         expand
+# of iterations for delta convergence:  35
+GMM objective:  22.59
+# of iterations for delta convergence:  35
+GMM objective:  22.503
+    89          129           22.503         expand
+# of iterations for delta convergence:  39
+GMM objective:  22.4469
+# of iterations for delta convergence:  33
+GMM objective:  22.2898
+    90          131          22.2898         expand
+# of iterations for delta convergence:  27
+GMM objective:  22.3677
+    91          132          22.2898         reflect
+# of iterations for delta convergence:  39
+GMM objective:  22.4342
+    92          133          22.2898         reflect
+# of iterations for delta convergence:  26
+GMM objective:  22.5416
+    93          134          22.2898         reflect
+# of iterations for delta convergence:  35
+GMM objective:  22.1646
+# of iterations for delta convergence:  25
+GMM objective:  21.9212
+    94          136          21.9212         expand
+# of iterations for delta convergence:  31
+GMM objective:  22.1922
+    95          137          21.9212         reflect
+# of iterations for delta convergence:  35
+GMM objective:  21.8995
+# of iterations for delta convergence:  34
+GMM objective:  21.5398
+    96          139          21.5398         expand
+# of iterations for delta convergence:  40
+GMM objective:  22.1754
+    97          140          21.5398         reflect
+# of iterations for delta convergence:  36
+GMM objective:  22.5524
+    98          141          21.5398         reflect
+# of iterations for delta convergence:  38
+GMM objective:  21.5948
+    99          142          21.5398         reflect
+# of iterations for delta convergence:  32
+GMM objective:  21.7338
+   100          143          21.5398         reflect
+# of iterations for delta convergence:  28
+GMM objective:  21.7048
+   101          144          21.5398         reflect
+# of iterations for delta convergence:  32
+GMM objective:  21.7559
+   102          145          21.5398         reflect
+# of iterations for delta convergence:  38
+GMM objective:  22.2741
+   103          146          21.5398         reflect
+# of iterations for delta convergence:  33
+GMM objective:  21.64
+   104          147          21.5398         reflect
+# of iterations for delta convergence:  35
+GMM objective:  21.5521
+   105          148          21.5398         reflect
+# of iterations for delta convergence:  27
+GMM objective:  21.3777
+# of iterations for delta convergence:  36
+GMM objective:  21.4045
+   106          150          21.3777         reflect
+# of iterations for delta convergence:  41
+GMM objective:  21.1015
+# of iterations for delta convergence:  32
+GMM objective:  20.7665
+   107          152          20.7665         expand
+# of iterations for delta convergence:  32
+GMM objective:  20.9699
+   108          153          20.7665         reflect
+# of iterations for delta convergence:  35
+GMM objective:  21.3758
+   109          154          20.7665         reflect
+# of iterations for delta convergence:  38
+GMM objective:  21.15
+   110          155          20.7665         reflect
+# of iterations for delta convergence:  34
+GMM objective:  20.7972
+   111          156          20.7665         reflect
+# of iterations for delta convergence:  34
+GMM objective:  21.1702
+   112          157          20.7665         reflect
+# of iterations for delta convergence:  32
+GMM objective:  21.1049
+   113          158          20.7665         reflect
+# of iterations for delta convergence:  30
+GMM objective:  20.699
+# of iterations for delta convergence:  33
+GMM objective:  20.5907
+   114          160          20.5907         expand
+# of iterations for delta convergence:  27
+GMM objective:  20.8225
+   115          161          20.5907         reflect
+# of iterations for delta convergence:  35
+GMM objective:  20.4765
+# of iterations for delta convergence:  26
+GMM objective:  20.3659
+   116          163          20.3659         expand
+# of iterations for delta convergence:  36
+GMM objective:  20.3809
+   117          164          20.3659         reflect
+# of iterations for delta convergence:  39
+GMM objective:  20.1836
+# of iterations for delta convergence:  35
+GMM objective:  20.033
+   118          166           20.033         expand
+# of iterations for delta convergence:  36
+GMM objective:  20.2792
+   119          167           20.033         reflect
+# of iterations for delta convergence:  35
+GMM objective:  20.0802
+   120          168           20.033         reflect
+# of iterations for delta convergence:  39
+GMM objective:  20.503
+   121          169           20.033         reflect
+# of iterations for delta convergence:  38
+GMM objective:  20.4047
+   122          170           20.033         reflect
+# of iterations for delta convergence:  29
+GMM objective:  20.4579
+   123          171           20.033         reflect
+# of iterations for delta convergence:  35
+GMM objective:  20.1219
+   124          172           20.033         reflect
+# of iterations for delta convergence:  37
+GMM objective:  19.802
+# of iterations for delta convergence:  34
+GMM objective:  19.9439
+   125          174           19.802         reflect
+# of iterations for delta convergence:  40
+GMM objective:  19.9483
+   126          175           19.802         reflect
+# of iterations for delta convergence:  28
+GMM objective:  20.1456
+   127          176           19.802         reflect
+# of iterations for delta convergence:  38
+GMM objective:  19.8129
+   128          177           19.802         reflect
+# of iterations for delta convergence:  39
+GMM objective:  19.9914
+   129          178           19.802         reflect
+# of iterations for delta convergence:  36
+GMM objective:  20.5137
+# of iterations for delta convergence:  39
+GMM objective:  20.0293
+   130          180           19.802         contract inside
+# of iterations for delta convergence:  37
+GMM objective:  20.1745
+   131          181           19.802         reflect
+# of iterations for delta convergence:  29
+GMM objective:  20.0952
+   132          182           19.802         reflect
+# of iterations for delta convergence:  37
+GMM objective:  20.1013
+   133          183           19.802         reflect
+# of iterations for delta convergence:  35
+GMM objective:  20.3226
+# of iterations for delta convergence:  31
+GMM objective:  19.9375
+   134          185           19.802         contract outside
+# of iterations for delta convergence:  30
+GMM objective:  19.6966
+# of iterations for delta convergence:  30
+GMM objective:  19.9954
+   135          187          19.6966         reflect
+# of iterations for delta convergence:  33
+GMM objective:  20.1816
+# of iterations for delta convergence:  30
+GMM objective:  19.8694
+   136          189          19.6966         contract inside
+# of iterations for delta convergence:  32
+GMM objective:  19.6456
+# of iterations for delta convergence:  31
+GMM objective:  19.8331
+   137          191          19.6456         reflect
+# of iterations for delta convergence:  37
+GMM objective:  19.8973
+   138          192          19.6456         reflect
+# of iterations for delta convergence:  36
+GMM objective:  20.0704
+   139          193          19.6456         reflect
+# of iterations for delta convergence:  36
+GMM objective:  19.9276
+   140          194          19.6456         reflect
+# of iterations for delta convergence:  35
+GMM objective:  19.7585
+   141          195          19.6456         reflect
+# of iterations for delta convergence:  39
+GMM objective:  19.9661
+   142          196          19.6456         reflect
+# of iterations for delta convergence:  38
+GMM objective:  20.1245
+# of iterations for delta convergence:  39
+GMM objective:  19.7493
+   143          198          19.6456         contract inside
+# of iterations for delta convergence:  31
+GMM objective:  19.7877
+   144          199          19.6456         reflect
+# of iterations for delta convergence:  37
+GMM objective:  19.7094
+   145          200          19.6456         reflect
+# of iterations for delta convergence:  33
+GMM objective:  19.9084
+   146          201          19.6456         reflect
+# of iterations for delta convergence:  30
+GMM objective:  19.6405
+# of iterations for delta convergence:  33
+GMM objective:  20.01
+   147          203          19.6405         reflect
+# of iterations for delta convergence:  34
+GMM objective:  19.3974
+# of iterations for delta convergence:  34
+GMM objective:  19.3717
+   148          205          19.3717         expand
+# of iterations for delta convergence:  37
+GMM objective:  19.7538
+   149          206          19.3717         reflect
+# of iterations for delta convergence:  37
+GMM objective:  19.6638
+   150          207          19.3717         reflect
+ 
+Exiting: Maximum number of iterations has been exceeded
+         - increase MaxIter option.
+         Current function value: 19.371720 
+
+
+theta2 =
+
+    0.2581
+    2.4317
+    0.0075
+    0.1238
+    3.5819
+   21.6313
+   -0.2216
+    1.4420
+   -1.0233
+    0.2847
+    0.0536
+   -0.9902
+    4.5870
+
+
+fval =
+
+   19.3717
+
+
+exitflag =
+
+     0
+
+
+output = 
+
+    iterations: 150
+     funcCount: 207
+     algorithm: 'Nelder-Mead simplex direct search'
+
+                                                                    
+**********************************************************************
+                                                                   
+Warning: The value of local variables may have been changed to match the
+         globals.  Future versions of MATLAB will require that you declare
+         a variable to be global before you use that variable.
+> In /N/hd02/erasmuse/Libra/nevostuff/var_cov.m at line 10
+  In /N/hd02/erasmuse/Libra/nevostuff/r1.m at line 271
+Object vcov dimensions: 38  38
+Object se dimensions: 38   1
+Object theta2w dimensions:     4  5
+Object t dimensions:     1  1
+Object se2w dimensions:     4  5
+                                                                    
+**********************************************************************
+                                                                   
+Object omega dimensions: 24  24
+Object xmd dimensions: 24   3
+Object ymd dimensions: 24   1
+Object omega dimensions: 24  24
+Object beta dimensions: 3  1
+Object resmd dimensions: 24   1
+Object semd dimensions: 3  1
+Object mcoef dimensions: 4  1
+Objectsemcoef dimensions: 5  1
+                                                                    
+**********************************************************************
+                                                                   
